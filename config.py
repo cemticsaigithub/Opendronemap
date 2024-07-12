@@ -279,7 +279,7 @@ class OpenSfMConfig:
     # Minimum number of common points betwenn images to be considered neighbors
     local_bundle_min_common_points: int = 20
     # Max number of shots to optimize during local bundle adjustment
-    local_bundle_max_shots: int = 20
+    local_bundle_max_shots: int = 10
 
     # Save reconstructions at every iteration
     save_partial_reconstructions: bool = False
